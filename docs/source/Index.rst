@@ -1,7 +1,7 @@
 Welcome to MyProject
 ========================
 
-<ADD DESCRIPTION>
+<ADD DESCRIPTION FOR PROJECT>
 
 
 .. _Read the docs: http://readthedocs.org/
