@@ -1,0 +1,13 @@
+## Ignore Visual Studio temporary files, build results, and
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Sphnix Build results
+[Bb]uild/
+
+# Python Cache
+__pycache__/

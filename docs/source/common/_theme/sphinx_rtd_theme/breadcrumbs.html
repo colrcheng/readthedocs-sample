@@ -1,0 +1,16 @@
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="{{ pathto(master_doc) }}">Docs</a> &raquo;</li>
+      {% for doc in parents %}
+          <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
+      {% endfor %}
+    <li>{{ title }}</li>
+      <li class="wy-breadcrumbs-aside">
+        {% if show_source and has_source and sourcename %}
+             <a href="https://github.com/segilbert/readthedocs-sample/tree/master/source/{{ pagename }}.rst">Edit on Gitlab</a>
+		 {% endif %}
+      </li>
+  </ul>
+  <hr/>
+</div>
+
