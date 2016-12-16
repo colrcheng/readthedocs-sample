@@ -1,0 +1,9 @@
+
+stages:
+  - build
+build_docs:
+  stage: build
+  script:
+    - curl -X POST http://40.114.85.215:8000/build/sample/
+  only:
+    - master
